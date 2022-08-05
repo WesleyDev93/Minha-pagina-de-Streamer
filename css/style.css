@@ -1,0 +1,13 @@
+html {
+    height: 100%;
+}
+
+
+
+body {
+    background-repeat: no-repeat;
+    background-image: url(../imagens/background.gif);
+    background-size: cover;
+    
+
+}
