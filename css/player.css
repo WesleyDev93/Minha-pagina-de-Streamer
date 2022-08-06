@@ -3,6 +3,11 @@
 }
 
 
+.player {
+   display: flex;
+   justify-content: center;
+}
+
 .play {
     margin-left: 20px;
 }

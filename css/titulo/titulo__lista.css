@@ -1,0 +1,34 @@
+.titulo__lista {
+    display: flex;
+    justify-content: center;
+}
+
+
+.estatico {
+   margin-right: 15px;
+}
+
+.dinamico {
+    color: violet;
+    font-weight: 600;
+}
+
+.dinamico::before {
+    background: #111111;
+    border-left: 2px solid salmon;
+    color: violet;
+    font-weight: 600;
+    content: "";
+    animation: typing 1.8s steps(10) infinite;
+}
+
+ .dinamico  span {
+    position: relative;
+}
+
+@keyframes typing {
+   100% {
+    left: 100%;
+    margin: 0 -340px 0 340px;
+   }
+}
