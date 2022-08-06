@@ -1,3 +1,34 @@
 .menu__item{
-    margin: 15px 0 15px 0;
+    margin: 40px 0 25px 0;
+}
+
+
+
+
+.menu__item::before{
+    background: #111111;
+    border-left: 20px groove blueviolet;
+    color: blueviolet;
+    font-weight: 600;
+    content: "";
+    animation: typing 2.8s steps(10) infinite;
+    
+}
+
+
+
+
+
+
+@keyframes typing {
+   100% {
+    left: 100%;
+    margin: 0 -95px 0 95px;
+   }
+}
+
+
+#logos {
+    width: 20px;
+    margin-right: 7px;
 }
