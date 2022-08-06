@@ -1,12 +1,12 @@
 html {
-    height: 100%;
+    height: auto;
 }
 
 
 
 body {
     background-repeat: no-repeat;
-    background-image: url(../imagens/background.gif);
+    background-image: url(../imagens/background.jpg);
     background-size: cover;
     
 
