@@ -1,3 +1,5 @@
+//Player de audio
+
 const audioContext = new AudioContext();
 const element = document.getElementById('trilha02');
 
@@ -19,3 +21,5 @@ const pause = document.querySelector ('.pause');
        
       })
 
+
+    
