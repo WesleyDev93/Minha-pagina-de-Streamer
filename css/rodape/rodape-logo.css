@@ -1,4 +1,7 @@
 .rodape__logo{
-    width: 100px;
-   
+    border: 17px solid #0A0A0A;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 80px;
 }
