@@ -17,7 +17,15 @@ chat
   width="350">
 </iframe>
 
+correcoes da Twitch iframe
 
+
+127.0.0.1   para o parent = 
+
+
+artigo das resoluções dos problemas 
+
+https://discuss.dev.twitch.tv/t/twitch-embedded-player-updates-in-2020/23956/120
 
 
 
