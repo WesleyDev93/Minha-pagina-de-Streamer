@@ -22,4 +22,13 @@ const pause = document.querySelector ('.pause');
       })
 
 
+
+  // interação com o botão enviar
+
+
+const botao = document.querySelector ('.formulario__botao');
+   botao.addEventListener ('click',function (){
+               alert ('Sua mensagem foi enviada!');
+   })
+  
     
