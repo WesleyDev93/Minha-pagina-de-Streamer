@@ -7,8 +7,6 @@
   </script>
 
 
-
-
 chat
   <iframe
   id="chat_embed"
@@ -28,6 +26,9 @@ artigo das resoluções dos problemas
 https://discuss.dev.twitch.tv/t/twitch-embedded-player-updates-in-2020/23956/120
 
 
+
+
+player de musica
 
 const audioContext = new AudioContext();
 const element = document.getElementById('trilha01');
@@ -51,3 +52,179 @@ const pause = document.querySelector ('.pause');
       })
 
 const trilha02 = document.getElementById ('trilha02');
+
+
+
+
+menu sanduiche ---
+
+<nav role="navegation">
+        
+ <div id="menuToggle">
+    <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+         <ul id="menu">
+            <p class="?">Menu</p>
+            <li class="?"><img id="logos" src=""><a href="">?</a></li>
+                <li class="?"><img id="logos" src=""><a href="">?</a></li>
+                <li class="?"><img id="logos" src=""><a href="#">?</a></li>
+                <li class="?"><img id="logos" src=""><a href="">?</a></li>
+                <li class="?"><img id="logos" src=""><a href="">?</a></li>
+                <li class="?><img id="logos" src=""><a href="">?</a></li>
+            </ul>
+        </div>
+      </nav>
+
+
+      estilizacao e funcionamento do menu sanduiche (CSS)
+
+
+      #menu {
+  height: 970px;
+  width: 150px;
+}
+
+.menu__menu {
+  font-size: 1.6rem;
+  color: black;
+  text-align: center;
+}
+
+
+#menuToggle
+{
+  bottom: 15px;
+  display: block;
+  left: 50px;
+  position: relative;
+  
+  
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color:yellow;
+}
+
+
+#menuToggle input
+{ 
+  cursor: pointer;
+  display: block;
+  height: 32px;
+  left: -5px;
+  position: absolute;
+  top: -7px;
+  opacity: 0; 
+  width: 40px;
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  background: white;
+  border-radius: 3px;
+  display: block;
+  
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+  width: 33px;
+  z-index: 1;
+  
+ 
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+  
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+  opacity: 1;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+ 
+  transform: rotate(0deg) scale(0.2, 0.2);
+  opacity: 0;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+  background: #ededed;
+  background-color: blueviolet;
+  margin: -100px 0 0 -50px;
+  position: absolute;
+  
+  
+  padding: 50px;
+  padding-top: 125px;
+  
+  
+  list-style-type: none;
+  
+  
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  -webkit-font-smoothing: antialiased;
+}
+
+#menu li
+{
+  font-size: 22px;
+  padding: 10px 0;
+  
+}
+
+
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
