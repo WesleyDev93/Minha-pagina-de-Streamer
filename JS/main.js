@@ -1,26 +1,22 @@
 //Player de audio
 
-const audioContext = new AudioContext();
-const element = document.getElementById('trilha02');
+const botaoPlay = document.querySelector ('.play');
+
+console.log (botaoPlay);
+
+botaoPlay.addEventListener ('click', function(){
+            const tocar = document.querySelector ('audio');
+                       tocar.play()
+})
 
 
-const source = audioContext.createMediaElementSource(element);
-source.connect(audioContext.destination)
+const botaoPause = document.querySelector ('.pause');
 
-
-
-const play = document.querySelector ('.play');
-      play.addEventListener('click',function(){
-        element.play();  
-      })
-
-const pause = document.querySelector ('.pause');
-      pause.addEventListener('click',function(){
-        element.currentTime = 0 
-        element.pause (); 
-       
-      })
-
+botaoPause.addEventListener ('click', function () {
+    const parar  = document.querySelector ('audio');
+                  parar.pause();
+                  parar.currentTime = 0 
+ })
      
 
 
