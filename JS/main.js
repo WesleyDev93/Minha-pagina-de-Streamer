@@ -21,13 +21,7 @@ const pause = document.querySelector ('.pause');
        
       })
 
-  // para funcionamento do player no Chrome
-
-      document.querySelector('play').addEventListener('click', function() {
-        context.resume().then(() => {
-          console.log('Playback resumed successfully');
-        });
-      });
+     
 
 
 
