@@ -21,18 +21,21 @@ body {
 /* Titulo*/ 
 
 @media only screen and (max-device-width: 1024px) {
-.titulo  {
-margin-top: 50px;
+         .titulo  {
+    
+          margin-top: 50px;
 
 
 }
 }
 
 @media only screen and (max-device-width: 1024px) {
-.titulo__lista {
-display: flex;
-flex-direction: column;
-justify-content: center;
+         .titulo__lista {
+          display: flex;
+          justify-content: center;
+          left: 100px;
+          position: relative;
+          
 
 
 }
@@ -40,7 +43,7 @@ justify-content: center;
 
 @media only screen and (max-device-width: 1024px) {
       .titulo__01  {
-      font-size: 1.2rem;
+      font-size: 2.3rem;
       
       
 }
@@ -48,7 +51,7 @@ justify-content: center;
 
 @media only screen and (max-device-width: 1024px) {
      .titulo__02  {
-     font-size: 1.2rem;
+     font-size: 2.3rem;
 }
 }
 
@@ -67,13 +70,49 @@ justify-content: center;
 
 
 
+@media only screen and (max-device-width: 1024px) {
+    #menu  {
+        width: 300px;
+        height: 1350px;
+        
+    } 
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+        .menu__item a {
+        font-size: 3rem;
+
+        } 
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+    .menu__item  {
+    margin-top: 150px;
+
+    } 
+}
+
+
+
+@media only screen and (max-device-width: 1024px) {
+    .menu__menu  {
+     font-size: 3rem;
+
+    } 
+}
+
+
+
+
 /* Player de musica*/ 
 
 @media only screen and (max-device-width: 1024px) {
 .player  {
     margin-top: 10px;
     position: relative;
-    right: 160px;
+    left: 50px;
     
 }
 }
@@ -84,10 +123,20 @@ justify-content: center;
 @media only screen and (max-device-width: 1024px) {
 iframe  {
     margin-top: 20px;
-    height: 200px;
-    width: 600px;
+    height: 380px;
+    width: 950px;
 }
 }
+
+
+@media only screen and (max-device-width: 1024px) {
+    .videoplayer  {
+        left: 85px;
+        position: relative;
+        
+    }
+    }
+
 
 /*  formulario de contato */ 
 
@@ -95,6 +144,8 @@ iframe  {
 .titulo__formulario  {
     color: black;
     margin-top: 50px;
+    position: relative;
+    left: 75px;
 }
 }
 
@@ -106,19 +157,36 @@ iframe  {
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 20px;
-    
-    
+    left: 55px;  
 }
 }
+
+@media only screen and (max-device-width: 1024px) {
+    #textonome, #textoemail, #textomensagem  {
+        color: black;
+        font-size: 1.8rem;
+    }
+    }
+
+    @media only screen and (max-device-width: 1024px) {
+        #Nome, #Email, #mensagem {
+            padding: 1rem;
+        }
+        }
+
+
+
 
 /* Formulario botao */
 @media only screen and (max-device-width: 1024px) {
 .formulario__botao {
+    
+    
+    left: 80px;
+    padding: 1rem;
     position: relative;
-    right: 15px;
     top: 5px;
-    width:100% ;
+    width:80% ;
     
 }
 }
@@ -145,16 +213,19 @@ iframe  {
 @media only screen and (max-device-width: 1024px) {
 .rodape__corp {
     color: black;
-    left: 6px;
+    font-size: 2rem;
+    left: 34%;
     position: relative;
-    top: 260px;
+    top: 460px;
     
 }
 }
 
 
 @media only screen and (max-device-width: 1024px) {
-video {
-    width: auto;
+           video {
+        left: 226px;
+        position: relative;
+        width: 70%;
 }
 }
