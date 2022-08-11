@@ -1,0 +1,159 @@
+/* Background*/ 
+
+
+@media screen and (max-width: 600px) {
+    html {
+        
+        height: auto;
+        width: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+body {
+    background-position: top;
+    background-size: auto;
+}
+}
+
+/* Titulo*/ 
+
+@media screen and (max-width: 600px) {
+.titulo  {
+margin-top: 50px;
+
+
+}
+}
+
+@media screen and (max-width: 600px) {
+.titulo__lista {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+}
+
+@media screen and (max-width: 600px)) {
+      .titulo__01  {
+      font-size: 1.2rem;
+      
+      
+}
+}
+
+@media screen and (max-width: 600px) {
+     .titulo__02  {
+     font-size: 1.2rem;
+}
+}
+
+
+/* Menu Sanduiche*/ 
+
+
+@media screen and (max-width: 600px) {
+#menuToggle  {
+    bottom: 30px;
+    left: 15px;
+    position: relative;
+    
+} 
+}
+
+
+
+/* Player de musica*/ 
+
+@media screen and (max-width: 600px) {
+.player  {
+    margin-top: 20px;
+    
+}
+}
+
+
+/* Player de video*/ 
+
+@media screen and (max-width: 600px) {
+iframe  {
+    left: 8px;
+    margin-top: 20px;
+    position: relative;
+    height: 200px;
+    width: 600px;
+}
+}
+
+/*  formulario de contato */ 
+
+@media screen and (max-width: 600px) {
+.titulo__formulario  {
+    color: black;
+    margin-top: 50px;
+}
+}
+
+
+/* Formulario */ 
+
+@media screen and (max-width: 600px) {
+.rodape__formulario {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 20px;
+    
+    
+}
+}
+
+/* Formulario botao */
+@media screen and (max-width: 600px) {
+.formulario__botao {
+    position: relative;
+    right: 15px;
+    top: 5px;
+    width:100% ;
+    
+}
+}
+
+
+
+/* Rodape final */
+@media screen and (max-width: 600px) {
+.rodape__final {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+.rodape__logo {
+    display: none;
+   
+}
+}
+
+
+@media screen and (max-width: 600px) {
+.rodape__corp {
+    display: none;
+    
+}
+}
+
+
+@media screen and (max-width: 600px) {
+video {
+    left: 6px;
+    position: relative;
+    width: auto;
+}
+}

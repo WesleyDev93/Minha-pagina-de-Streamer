@@ -1,7 +1,7 @@
 /* Background*/ 
 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
         html {
             
             height: auto;
@@ -11,7 +11,7 @@
 
 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     body {
         background-position: top;
         background-size: auto;
@@ -20,7 +20,7 @@
 
 /* Titulo*/ 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .titulo  {
     margin-top: 50px;
     
@@ -28,7 +28,7 @@
 }
 }
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .titulo__lista {
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
 }
 }
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px)) {
           .titulo__01  {
           font-size: 1.2rem;
           
@@ -46,7 +46,7 @@
     }
 }
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
          .titulo__02  {
          font-size: 1.2rem;
    }
@@ -56,7 +56,7 @@
 /* Menu Sanduiche*/ 
 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     #menuToggle  {
         bottom: 30px;
         left: 15px;
@@ -69,7 +69,7 @@
 
 /* Player de musica*/ 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .player  {
         margin-top: 20px;
         
@@ -79,7 +79,7 @@
 
 /* Player de video*/ 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     iframe  {
         margin-top: 20px;
         height: 200px;
@@ -89,7 +89,7 @@
 
 /*  formulario de contato */ 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .titulo__formulario  {
         color: black;
         margin-top: 50px;
@@ -99,7 +99,7 @@
 
 /* Formulario */ 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .rodape__formulario {
         display: flex;
         flex-direction: column;
@@ -111,7 +111,7 @@
 }
 
 /* Formulario botao */
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .formulario__botao {
         position: relative;
         right: 15px;
@@ -124,7 +124,7 @@
 
 
 /* Rodape final */
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .rodape__final {
         display: flex;
         flex-direction: column;
@@ -132,7 +132,7 @@
 }
 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .rodape__logo {
         display: none;
        
@@ -140,7 +140,7 @@
 }
 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     .rodape__corp {
         color: black;
         left: 6px;
@@ -151,7 +151,7 @@
 }
 
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
     video {
         width: auto;
 }
