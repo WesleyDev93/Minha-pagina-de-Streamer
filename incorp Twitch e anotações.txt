@@ -20,6 +20,7 @@ correcoes da Twitch iframe
 
 127.0.0.1   para o parent = 
 
+minha-pagina-de-streamer.vercel.app
 
 artigo das resoluções dos problemas 
 
