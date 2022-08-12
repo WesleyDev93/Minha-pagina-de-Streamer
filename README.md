@@ -30,3 +30,6 @@ https://media-exp1.licdn.com/dms/image/C4D22AQG9-bgWyFFfvg/feedshare-shrink_2048
 
 O player de musica contém uma musica implementada atraves do JS.
 A página pode ser replicada para qualquer canal, apenas trocando-se os valores.
+
+o link leva ao site no ar na Web 
+https://minha-pagina-de-streamer.vercel.app/
