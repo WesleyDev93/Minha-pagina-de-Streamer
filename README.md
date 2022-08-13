@@ -33,3 +33,7 @@ A página pode ser replicada para qualquer canal, apenas trocando-se os valores.
 
 o link leva ao site no ar na Web 
 https://minha-pagina-de-streamer.vercel.app/
+
+
+
+projeto executado e entregue.
