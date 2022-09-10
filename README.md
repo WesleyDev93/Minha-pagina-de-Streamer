@@ -1,21 +1,30 @@
 # Minha-pagina-de-Streamer
 
+## Índice
+
+- [Visão Geral](#visão-geral)
+  - [O desafio](#the-challenge)
+  - [Captura de tela](#captura-de-tela)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Construído com](#construído-com)
+  - [O que aprendi](#o-que-aprendi)
+- [Autor](#autor)
+
+
+## Visão geral
+
 Projeto foi desenvolvido para sanar um problema de se ter uma pagina stream para divulgar o canal, no caso o meu na Twitch.
-dentro da Mentoria " conquiste sua vaga " projeto desenvolvido para melhorar praticas de media queries , estilização em CSS e implementação
-de algumas interações em JS.
 
-Projeto feito para uma pagina sobre o meu canal da Twitch para mandar para que as pessoas possam ver sem ter que criar uma conta.
+### O desafio
 
-Desafios de aprendizagem de media queries e das estilizações de CSS feitas com grandes melhorias, aproveitando as anotações dos cursos realizados.
+Os usuários devem ser capazes de:
 
--- No projeto foi usado HTML CSS E JS -- 
-O projeto foi inicialmente feito para Desktop, com um menu interativo com uma simples animação.
+- Executar o player de trilha, assistir a live, e interagir com o menu.
 
-![image](https://user-images.githubusercontent.com/108889735/187688331-02df9761-d1bb-404c-b30a-b1e7c70178af.png)
+A página pode ser replicada para qualquer canal, apenas trocando-se os valores.
 
-
-
-
+### Captura de tela
 
 Dentro do site temos o iframe da LIVE 
 
@@ -29,22 +38,28 @@ Dentro do site temos o iframe da LIVE
 ![image](https://user-images.githubusercontent.com/108889735/187688499-a99ecfdd-83c3-4c0f-9a60-ae20fcf2888b.png)
 
 
-
-
-Neste projeto foram usados medias queries para as telas de 375px - 600px -1024px
-
 tornando a pagina resposiva para essas telas.
 
 ![image](https://user-images.githubusercontent.com/108889735/187688924-e711cde2-8c73-4a6e-bf77-22bc2f16cb3e.png)
 
 
+### Links
 
-O player de musica contém uma musica implementada atraves do JS.
-A página pode ser replicada para qualquer canal, apenas trocando-se os valores.
+- URL do site ao vivo: (<https://minha-pagina-de-streamer.vercel.app/>)
 
-o link leva ao site no ar na Web 
-https://minha-pagina-de-streamer.vercel.app/
+## Meu processo
 
+Desafios de aprendizagem de media queries e das estilizações de CSS feitas com grandes melhorias, aproveitando as anotações dos cursos realizados.
 
+### Construído com
 
-projeto executado e entregue.
+- Marcação HTML5 semântica
+- Propriedades personalizadas de CSS
+- JavaSCript
+
+### O que eu aprendi
+
+Melhororar o codigo HTML, e css , com pequenas interações de JS.
+
+### author
+- Linkedin: (https://www.linkedin.com/in/wesleyoliveiralima/)
