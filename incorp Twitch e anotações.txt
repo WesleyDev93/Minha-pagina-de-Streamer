@@ -229,3 +229,17 @@ menu sanduiche ---
 {
   transform: none;
 }
+
+
+
+
+codigo de body anterior 28-08-23
+
+body {
+    background-repeat: no-repeat;
+    background-image: url(../imagens/background.jpg);
+    background-size: cover;
+    background-position:center;
+    
+
+}
